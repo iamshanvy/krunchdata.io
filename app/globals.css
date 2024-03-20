@@ -31,3 +31,22 @@ body {
     text-wrap: balance;
   }
 }
+
+.font-gradient {
+  background: linear-gradient(to bottom,#fff 30%,hsla(0,0%,100%,.5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: unset;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
