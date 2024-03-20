@@ -21,9 +21,8 @@ const GlobeComponent = dynamic(
 export function Landing() {
   return (
     <div className="flex flex-col justify-between gap-2">
-      <div className="flex flex-col p-5">
+      <div className="flex flex-col p-5 gap-4">
         <Spacer className="p-10" />
-        <div className="flex justify-center items-center relative"></div>
         <div className="flex justify-center relative">
           <div className="flex justify-center gap-4 top-[-50px] absolute z-50">
             {/* <Button variant="bordered" radius="none" disableRipple>
@@ -38,26 +37,28 @@ export function Landing() {
                   marketing services, using AI and code.
                 </p>
               </div>
-              <Button
-                as={Link}
-                variant="shadow"
-                radius="none"
-                className={cn(audiowide.className, "bg-white text-black")}
-                disableRipple
-                endContent={<ArrowRight />}
-                href="https://calendly.com/jordan-chung/krunch-demo"
-              >
-                Get in touch
-              </Button>
             </div>
           </div>
           <GlobeComponent />
         </div>
         <div className="flex justify-center">
-          <p className="font-gradient">
+          <p className="font-gradient text-xl">
             Backed by <img className="inline" width={40} src="500logo.svg" />{" "}
             Global
           </p>
+        </div>
+        <div className="flex justify-center">
+          <Button
+            as={Link}
+            variant="shadow"
+            radius="none"
+            className={cn(audiowide.className, "bg-white text-black")}
+            disableRipple
+            endContent={<ArrowRight />}
+            href="https://calendly.com/jordan-chung/krunch-demo"
+          >
+            Get in touch
+          </Button>
         </div>
       </div>
     </div>

@@ -35,9 +35,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-screen flex flex-col gap-4 justify-center items-center p-10">
+      <div className="flex flex-col gap-4 justify-center items-center p-10">
         <div className="flex flex-col gap-20 items-center">
-          <h2 className="font-bold text-4xl">We work with</h2>
+          <h2 className="font-bold text-4xl">We worked with</h2>
           <div className="flex flex-wrap justify-center items-center gap-10">
             <img width={200} src="alibaba.png" />
             <img width={200} src="google.png" />
