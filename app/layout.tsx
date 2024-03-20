@@ -6,7 +6,7 @@ import { cn } from "./lib/utils";
 
 export const metadata: Metadata = {
   title: "Krunch",
-  description: "Startup as a service",
+  description: "Product Management, Growth and Engineering as a service",
 };
 
 export default function RootLayout({
