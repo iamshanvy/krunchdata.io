@@ -2,7 +2,8 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Precedent - Building blocks for your Next.js project";
+export const alt =
+  "Krunch - Product management, marketing and engineering as a service";
 export const contentType = "image/png";
 
 export default async function OG() {
@@ -23,7 +24,7 @@ export default async function OG() {
       >
         <img
           src={`thumb.png`}
-          alt="Precedent Logo"
+          alt="Krunch Thumbnail"
           tw="w-20 h-20 mb-4 opacity-95"
         />
       </div>
