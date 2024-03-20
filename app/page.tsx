@@ -1,12 +1,6 @@
-import Slider from "react-slick";
 import { Landing } from "./ui/landing";
 import { LogoCarousel } from "./ui/logo-carousel";
-import { cn } from "./lib/utils";
-import { audiowide, rubik } from "./ui/fonts";
-import { Button } from "@nextui-org/react";
-import { ArrowRight } from "lucide-react";
 import { Navbar } from "./ui/navbar";
-import { ThemeSwitcher } from "./ui/theme-switcher";
 
 export default function Home() {
   return (
@@ -35,7 +29,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 justify-center items-center p-10">
+      <div className="flex flex-col gap-4 justify-center items-center p-10 pb-40">
         <div className="flex flex-col gap-20 items-center">
           <h2 className="font-bold text-4xl">We worked with</h2>
           <div className="flex flex-wrap justify-center items-center gap-10">
