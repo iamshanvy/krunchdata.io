@@ -6,6 +6,7 @@ import { audiowide, rubik } from "./ui/fonts";
 import { Button } from "@nextui-org/react";
 import { ArrowRight } from "lucide-react";
 import { Navbar } from "./ui/navbar";
+import { ThemeSwitcher } from "./ui/theme-switcher";
 
 export default function Home() {
   return (
