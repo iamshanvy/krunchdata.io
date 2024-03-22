@@ -7,7 +7,7 @@ export default function Home() {
     <div className="flex flex-col">
       <Navbar />
       <Landing />
-      <div className="h-screen flex flex-col gap-4 justify-center relative">
+      <div className="flex flex-col gap-4 justify-center relative pt-32">
         <div className="flex flex-col md:flex-row justify-around gap-10 p-10">
           <div className="flex flex-col gap-2 max-w-2xl text-center md:text-left">
             <h2 className="font-bold text-4xl">Why us?</h2>
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 justify-center items-center p-10 pb-40">
+      <div className="flex flex-col gap-4 justify-center items-center p-10 pt-20 pb-40">
         <div className="flex flex-col gap-20 items-center">
           <h2 className="font-bold text-4xl">We worked with</h2>
           <div className="flex flex-wrap justify-center items-center gap-10">
